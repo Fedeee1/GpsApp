@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">GpsApp</string>
+    <string name="txtLocation">Ubicación</string>
 </resources>
