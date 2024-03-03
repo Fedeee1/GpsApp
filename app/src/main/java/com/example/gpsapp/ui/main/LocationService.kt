@@ -1,4 +1,4 @@
-package com.example.gpsapp
+package com.example.gpsapp.ui.main
 
 import android.annotation.SuppressLint
 import android.content.Context

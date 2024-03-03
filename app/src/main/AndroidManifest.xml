@@ -16,8 +16,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GpsApp"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
         <activity
-            android:name=".MainActivity"
+            android:name=".ui.map.MapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
