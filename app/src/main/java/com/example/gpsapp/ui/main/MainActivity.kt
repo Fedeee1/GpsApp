@@ -5,19 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
-import com.example.gpsapp.R
-import com.example.gpsapp.commons.ANIMATION_MAP_ZOOM_DURATION
-import com.example.gpsapp.commons.CITY_ZOOM
 import com.example.gpsapp.commons.LATITUDE_KEY
 import com.example.gpsapp.commons.LONGITUDE_KEY
 import com.example.gpsapp.databinding.ActivityMainBinding
 import com.example.gpsapp.ui.map.MapsActivity
-import com.google.android.gms.maps.CameraUpdateFactory
-import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.OnMapReadyCallback
-import com.google.android.gms.maps.SupportMapFragment
-import com.google.android.gms.maps.model.LatLng
-import com.google.android.gms.maps.model.MarkerOptions
 import kotlinx.coroutines.launch
 
 class MainActivity : AppCompatActivity(){
